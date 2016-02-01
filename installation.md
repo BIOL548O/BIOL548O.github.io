@@ -26,12 +26,11 @@ Please see installation instructions below for all the different software tools 
 
 ### Git installation: Windows
 
-**Option 1** (*recommended*): We concur with [Software Carpentry](http://software-carpentry.org), an organization that "teaches lab skills for scientific computing", and paraphrase their installation instructions:
+We reccommend this approach, following [Software Carpentry](http://software-carpentry.org), an organization that "teaches lab skills for scientific computing" (and also STAT545):
 
-  * Install [Git for Windows](https://git-for-windows.github.io/), previously known as `msysgit` or "Git Bash", to get Git in addition to some other useful tools, such as the Bash [shell](git09_shell.html). Yes, all those names are totally confusing.
-  * This approach leaves the Git executable in a conventional location, which will help you and other programs, e.g. RStudio, find it and use it. This also supports a transition to more expert use, because the Bash [shell](git09_shell.html) will be useful as you venture outside of R/RStudio.
- 
-After installation, you still need to [introduce yourself to Git](git04_introduce-self-to-git.html) and [get it to remember your GitHub username and password](git06_credential-caching.html). If your Git client guides you through this, seize that opportunity! Otherwise follow the links for some assistance.
+  * Install [Git for Windows](https://git-for-windows.github.io/), previously known as `msysgit` or "Git Bash", to get Git in addition to some other useful tools, such as the Bash [shell](git09_shell.html). 
+      - Yes, all those names are totally confusing.
+  * This approach leaves the Git executable in a conventional location, which will help you and other programs, e.g. RStudio, find it and use it. 
 
 ### Git installation: Mac
 
@@ -41,8 +40,6 @@ After installation, you still need to [introduce yourself to Git](git04_introduc
   * This arguably sets you up the best for the future and should "just work" for most people. It will certainly get you the latest version of Git of all approaches described here. It is the most widely recommended installation method.
   * Here's a list of maintained builds for various combinations of Git and Mac OS version: [`git-osx-installer` on sourceforge](http://sourceforge.net/projects/git-osx-installer/files/?source=navbar). If your OS version is not there -- I'm talking to you 10.7 Lion people -- we've had recent success with binaries found here: <https://www.wandisco.com/git/download>. 
 
-
-After installation, you still need to [introduce yourself to Git](git04_introduce-self-to-git.html) and [get it to remember your GitHub username and password](git06_credential-caching.html). If your Git client guides you through this, seize that opportunity! Otherwise follow the links for some assistance.
 
 ### Git installation: Linux
 
@@ -60,10 +57,7 @@ Fedora or RedHat Linux
 sudo yum install git
 ```
 
-After installation, you still need to [introduce yourself to Git](git04_introduce-self-to-git.html) and [get it to remember your GitHub username and password](git06_credential-caching.html).
-
-
-#### Register a GitHub account
+### Register a GitHub account
 
   * [Github](https://github.com/) is an increasingly popular website for sharing code and data. It is an excellent platform for collaborating on projects, including scientific manuscripts.
   * Register for a free individual GitHub account and request [the student discount](https://education.github.com). This should give you some free private repositories for a couple of years.
@@ -71,11 +65,7 @@ After installation, you still need to [introduce yourself to Git](git04_introduc
   * We will elicit your GitHub username soon so we can add you to the [BIOL 548O GitHub Organization](https://github.com/BIOL548O).
 
 
-#### R and RStudio
-
-Follow these instructions:
-
-### R and RStudio
+## R and RStudio
 
   * Install [R, a free software environment for statistical computing and graphics](http://www.r-project.org) from [CRAN](http://cran.rstudio.com), the Comprehensive R Archive Network. Install the precompiled binary for your Operating system.
 
@@ -101,6 +91,10 @@ If you have a pre-existing installation of R and/or RStudio, we __highly recomme
 
 * Put your cursor in the pane labelled Console, which is where you interact with the live R process. Create a simple object with code like `x <- 2 * 4` (followed by enter or return). Then inspect the `x` object by typing `x` followed by enter or return. You should see the value 8 print to screen. If yes, you've succeeded in installing R and RStudio.
 
+### Next steps (coming soon)
+
+After installation, you still need to [introduce yourself to Git](git04_introduce-self-to-git.html) and [get it to remember your GitHub username and password](git06_credential-caching.html). If your Git client guides you through this, seize that opportunity! Otherwise follow the links for some assistance.
+
 ### Add-on packages
 
 R is an extensible system and many people share useful code they have developed as a _package_ via CRAN and GitHub. To install a package from CRAN, for example the [`dplyr`](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html)  package for data manipulation, here is one way to do it in the R console (there are others).
@@ -115,6 +109,7 @@ You could use the above method to install the following packages, all of which w
 
   * `tidyr`, [package webpage](https://cran.r-project.org/web/packages/tidyr/index.html)
   * `ggplot2` [package webpage](http://docs.ggplot2.org/)
+  * `EML` [package webpage](https://github.com/ropensci/EML)
 
 ### Further resources
 
@@ -134,8 +129,3 @@ The above will get your basic setup ready but here are some links if you are int
 Eventually we will want you to connect RStudio and Git(Hub) (see next item about installing Git), so if things are going really well, give that a try.
 
 If you have a pre-existing installation of R and/or RStudio, we **highly recommend** that you reinstall and upgrade to the most recent version. It is very easy and RStudio, specifically, is changing rapidly and positively (written 2015-09). If you upgrade R, you will need to also update any packages you have installed.
-
-#### Git(Hub) and Git client
-
-  * **You can wait a couple days to do this if all the rest is overwhelming.** But at least read the pages I link to here and start to prepare your mind.
-  * [Working with RStudio, Git, GitHub](git00_index.html)
