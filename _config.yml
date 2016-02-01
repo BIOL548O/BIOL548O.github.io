@@ -28,7 +28,7 @@ description: A graduate module in data management at University of British Colum
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  About Me: "aboutme"
+  Installation: "aboutme"
   Author's home: "http://github.com/aammd"
   
 # --- Footer options --- #
