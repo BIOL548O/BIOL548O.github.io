@@ -20,6 +20,10 @@ comments: true
 
 ### Reading for Thursday
 
+[Ram, K. 2013. Git can facilitate greater reproducibility and increased transparency in science. Source Code for Biology and Medicine](http://scfbm.biomedcentral.com/articles/10.1186/1751-0473-8-7)
+
+[Blischak et al, 2016, A Quick Introduction to Version Control with Git and GitHub, PLOS comp bio](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668)
+
 ### Optional next steps (might have to be on your own time)
 
 * [cache your credentials](01_git_cache) so that you don't have to log in every time that you want to push to github
