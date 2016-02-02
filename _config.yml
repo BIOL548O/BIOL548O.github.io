@@ -28,6 +28,7 @@ description: A graduate module in data management at University of British Colum
 # List of links in the navigation bar
 navbar-links:
   Installation: "installation"
+  VersionControl: "VersionControl"
   
 # --- Footer options --- #
 
