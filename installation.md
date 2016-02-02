@@ -48,13 +48,13 @@ If Git is not already available on your machine you can install it via your dist
 
 Ubuntu or Debian Linux
 
-```sh
+```
 sudo apt-get install git
 ```
 
 Fedora or RedHat Linux
 
-```sh
+```
 sudo yum install git
 ```
 
@@ -80,7 +80,7 @@ If you have a pre-existing installation of R and/or RStudio, we __highly recomme
 
   * If you upgrade R, you will need to update any packages you have installed. The command below should get you started, though you may need to specify more arguments if, e.g., you have been using a non-default library for your packages.
 
-```r
+```
     update.packages(ask = FALSE, checkBuilt = TRUE)
 ```
 
@@ -100,7 +100,7 @@ After installation, you still need to [introduce yourself to Git](git04_introduc
 
 R is an extensible system and many people share useful code they have developed as a _package_ via CRAN and GitHub. To install a package from CRAN, for example the [`dplyr`](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html)  package for data manipulation, here is one way to do it in the R console (there are others).
 
-```r
+```
 install.packages("dplyr", dependencies = TRUE)
 ```
 
