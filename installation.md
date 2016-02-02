@@ -92,9 +92,9 @@ If you have a pre-existing installation of R and/or RStudio, we __highly recomme
 
 * Put your cursor in the pane labelled Console, which is where you interact with the live R process. Create a simple object with code like `x <- 2 * 4` (followed by enter or return). Then inspect the `x` object by typing `x` followed by enter or return. You should see the value 8 print to screen. If yes, you've succeeded in installing R and RStudio.
 
-### Next steps (coming soon)
+### Next steps
 
-After installation, you still need to [introduce yourself to Git](git04_introduce-self-to-git.html) and [get it to remember your GitHub username and password](git06_credential-caching.html). If your Git client guides you through this, seize that opportunity! Otherwise follow the links for some assistance.
+After installation, you still need to [introduce yourself to Git](01_git_introduce.html) and [get it to remember your GitHub username and password](01_git_cache.html). If your Git client guides you through this, seize that opportunity! Otherwise follow the links for some assistance.
 
 ### Add-on packages
 
