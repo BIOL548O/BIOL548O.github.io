@@ -5,6 +5,12 @@ subtitle: tracking all the changes
 comments: true
 ---
 
+## Lecture outline
+
+* Introduction to what the class will be about [slides](../slides/01_Introduction.html)
+* introduction to version control with git
+
+
 ### Getting started with git
 
 [slides about git](slides/git_slides.pdf) courtesy of [Software Carpentry](http://swcarpentry.github.io/git-novice)
