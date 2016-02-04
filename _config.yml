@@ -29,6 +29,7 @@ description: A graduate module in data management at University of British Colum
 navbar-links:
   Installation: "installation"
   VersionControl: "VersionControl"
+  github: "github"
   
 # --- Footer options --- #
 
