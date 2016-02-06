@@ -77,5 +77,50 @@ I like that. This way, they can have ownership of this repository: they could ev
         + It would certainly be easier to organize peer reviews!
 * Despite the (considerable!) convenience to myself, I decided that it was necessary to shut down access to all private repos.
 
-### Phase one: 
+#### Organizational teams
 
+There are a few teams and things I know for sure I want:
+* `all` : a team for absolutely everybody. To be used in broadcast announcements.
+* `students`: just the students, for announcements that pertain only to actual work.
+* `auditors`: just because it seems polite to include em. Even though technically an instructor is not required to actually *do* anything with auditors, so I guess there is no official need to interact with them as a group.
+* `instructors`: for access to the student grades / "instructorsonly" repository
+
+#### Student teams
+
+* in STAT545, each student was on a singleton team, just for them. That team was the owner of their own repo. I want to try to import this system here:
+* I _think_ that marking proceeded like this: 
+    - *STUDENT*
+        + Student does homework, pushes to their repo (owned by their team. they have push access)
+    - *Instructor*
+        + Peer reviewer is selected by random process: `combn(students, 2)` etc, with perhaps some finesse to make sure that duplicates are impossible
+        + peer reviewer's team is added to repository (or rather, that repository is added to reviewer's team)
+    - Issue is opened on _student's_ repo: "Peer review of `<student>` by `<reviewer>`", and reviewer is assigned.  This issue contains:
+        + Hi (reviwer name) (maybe reviwer github handle)
+        + link to general rubric + general rules for review (be nice, don't plagarize, etc)
+        + specific information about what this review should be
+        + due date
+    - Issue given tags "homework" with number and "peer review" with number? 
+    - *REVIEWER*
+        + reviewer submits marks and feedback -- on the issue? in a google form? if the former then should be in som standard format. If the latter, should be also communicated to student somehow (could be simply in an unstructured form on the issue)
+        + both issue and form feedback need to be done by the due date.
+    - *INSTRUCTOR AGAIN*
+        + closes issue.
+
+Alternatively:
+    * *STUDENT*
+        - students push a branch containing their changes since last homework was completed
+        - students open a PR. that counts as their "submission" of the homework.
+    * *INSTRUCTOR*
+        - reviewr randomly assigned (as above) and assigned to issue.
+    * *REVIEWER*
+        - reviewer submits comments as both comments on the issue and inline comments on the diff.
+    * *STUDENT (possibly optional)*
+        - student responds to those comments
+    * *INSTRUCTOR*
+        - instructor confirms that 
+            1. reviewer comments are done 
+            2. reviewer grade is registered on a form.
+        - creates comment, acknowledging review is complete and informing student they can merge
+            + make sure you merge before next assignment.
+            + delete your branches
+            + reviewer, remember to delete your clone (if any).
