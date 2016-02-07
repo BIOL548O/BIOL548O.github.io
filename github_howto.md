@@ -80,6 +80,7 @@ I like that. This way, they can have ownership of this repository: they could ev
 #### Organizational teams
 
 There are a few teams and things I know for sure I want:
+
 * `all` : a team for absolutely everybody. To be used in broadcast announcements.
 * `students`: just the students, for announcements that pertain only to actual work.
 * `auditors`: just because it seems polite to include em. Even though technically an instructor is not required to actually *do* anything with auditors, so I guess there is no official need to interact with them as a group.
@@ -107,20 +108,21 @@ There are a few teams and things I know for sure I want:
         + closes issue.
 
 Alternatively:
-    * *STUDENT*
-        - students push a branch containing their changes since last homework was completed
-        - students open a PR. that counts as their "submission" of the homework.
-    * *INSTRUCTOR*
-        - reviewr randomly assigned (as above) and assigned to issue.
-    * *REVIEWER*
-        - reviewer submits comments as both comments on the issue and inline comments on the diff.
-    * *STUDENT (possibly optional)*
-        - student responds to those comments
-    * *INSTRUCTOR*
-        - instructor confirms that 
-            1. reviewer comments are done 
-            2. reviewer grade is registered on a form.
-        - creates comment, acknowledging review is complete and informing student they can merge
-            + make sure you merge before next assignment.
-            + delete your branches
-            + reviewer, remember to delete your clone (if any).
+
+* *STUDENT*
+    - students push a branch containing their changes since last homework was completed
+    - students open a PR. that counts as their "submission" of the homework.
+* *INSTRUCTOR*
+    - reviewr randomly assigned (as above) and assigned to issue.
+* *REVIEWER*
+    - reviewer submits comments as both comments on the issue and inline comments on the diff.
+* *STUDENT (possibly optional)*
+    - student responds to those comments
+* *INSTRUCTOR*
+    - instructor confirms that 
+        1. reviewer comments are done 
+        2. reviewer grade is registered on a form.
+    - creates comment, acknowledging review is complete and informing student they can merge
+        + make sure you merge before next assignment.
+        + delete your branches
+        + reviewer, remember to delete your clone (if any).
