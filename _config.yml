@@ -30,6 +30,7 @@ navbar-links:
   Installation: "installation"
   VersionControl: "VersionControl"
   github: "github"
+  munge1: "munge01"
   
 # --- Footer options --- #
 
