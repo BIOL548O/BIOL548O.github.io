@@ -7,7 +7,7 @@ comments: true
 
 ## Outline for today
 
-[Today's slides](slides/munge_slides.html)
+[Today's slides](slides/munge_slides.html)  
 [What Andrew typed in today](SuppMatt/09_02_2016_notes.R)
 
 
