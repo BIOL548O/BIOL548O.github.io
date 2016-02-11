@@ -7,6 +7,8 @@ comments: true
 
 ## Outline for today
 
+[Today's slides](slides/munge_slides.html)
+
 ### Intro to tidy data
 *step 1* download [this data](https://www.dropbox.com/s/5ncuacnd3arjitc/survey_data_tabs.xls?dl=0)  
 *step 2* "tidy it up"  

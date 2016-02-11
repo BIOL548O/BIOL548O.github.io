@@ -1,0 +1,55 @@
+---
+title: "data munging"
+author: "Andrew MacDonald"
+date: "February 9, 2016"
+output: ioslides_presentation
+---
+
+## Let's begin with an EXERCISE
+
+`http://biol548o.github.io/munge01.html`
+
+## the `%>%` operator
+
+```
+foo_foo <- little_bunny()
+
+## orthodox R style
+bop_on(scoop_up(hop_through(foo_foo, forest), field_mouse), head)
+
+## novel pipe syntax
+foo_foo %>%
+  hop_through(forest) %>%
+  scoop_up(field_mouse) %>%
+  bop_on(head)
+```
+
+## dplyr
+
+1. `select()`
+2. `filter()`
+3. `group_by()`
+4. `summarize()`
+5. `mutate()`
+
+## Challenge 1
+
+Write a single command (which can span multiple lines and includes pipes) that will produce a dataframe that has the African values for `lifeExp`, `country` and `year`, but not for other Continents. 
+
+How many rows does your dataframe have and why?
+
+## Challenge 2
+
+Calculate the average life expectancy per country. Which had the longest life expectancy and which had the shortest life expectancy?
+
+## Challenge 3 {.build}
+
+Calculate the average life expectancy in 2002 of 2 randomly selected countries for each continent. Then arrange the continent names in reverse order.
+
+> **Hint:** Use the `dplyr` functions `arrange()` and `sample_n()`, they have similar syntax to other dplyr functions.
+
+## Another advanced challenge.
+
+Create a "Rank-Abundance" plot of European countries in 2002.
+
+> **Hint:** Use the `dplyr` windows functions.
