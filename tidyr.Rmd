@@ -55,8 +55,8 @@ A <- data.frame(
        c2 = c('a', 'a', 'a', 'b', 'b', 'c', 'd'),
        c3 = c(1, 3, 1, 1, 2, 2, 1))
 
-B <- A %.%
-  group_by(c1,c2) %.%
+B <- A %>%
+  group_by(c1,c2) %>%
   summarize(Nrows=n(),
             SumOfCol3=sum(c3))
 kable(B)
