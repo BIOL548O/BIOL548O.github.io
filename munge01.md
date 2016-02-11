@@ -8,6 +8,8 @@ comments: true
 ## Outline for today
 
 [Today's slides](slides/munge_slides.html)
+[What Andrew typed in today](SuppMatt/09_02_2016_notes.R)
+
 
 ### Intro to tidy data
 *step 1* download [this data](https://www.dropbox.com/s/5ncuacnd3arjitc/survey_data_tabs.xls?dl=0)  
