@@ -50,3 +50,7 @@ Based on this, how do you think it works?
 * [ten commandments of entering data for R](http://www.seascapemodels.org/rstats/rspatial/2015/11/13/data-commandments.html)
 
 You can also see these from Rstudio if you type `browseVignettes(package = "dplyr")`
+
+## Homework 2 is coming up! 
+
+Come next class (Thursday) with the most _raw_ version of your data you can find. This might be the spreadsheet you typed in when you recorded your data, or which was emailed to you. It may be a series of text files that you received from your instrument. It might even be a link to a shared folder on Dropbox, or some other online source of information.
