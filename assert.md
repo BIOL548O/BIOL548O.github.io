@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Assertions in R
-subtitle: Hey, are you sure about that data?
+title: Introduction to assertr
+subtitle: Cleaning with pipes
 comments: true
 ---
 
