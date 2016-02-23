@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Assertions in R
-subtitle: using R to make data **tidy**
+subtitle: Hey, are you sure about that data?
 comments: true
 ---
 
@@ -155,7 +155,4 @@ gm_fac <- gapminder %>%
 
 > *challenge!* write a function to test if population is an integer. (Note that it is probably not stored as an integer in your present data.frame)
 
-Let the data speak: `insist`
-----------------------------
 
-Unusual variables stick out because they are *different* from the rest of the data
