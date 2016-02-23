@@ -1,0 +1,28 @@
+---
+title: "data munging part 2"
+author: "Andrew MacDonald"
+date: "February 11, 2016"
+output: ioslides_presentation
+---
+
+
+
+## Challenge 1 {.build}
+
+Is gapminder a purely long, purely wide, or some intermediate format?
+
+```{r}
+library(gapminder)
+knitr::kable(head(gapminder))
+```
+
+
+## Challenge 2 {.build}
+
+Using `gap_long`, calculate the mean life expectancy, population, and gdpPercap for each continent. 
+
+Hint: use the `group_by()` and `summarize()` functions we learned in the dplyr lesson
+
+## Challenge 3 
+
+Take this 1 step further and create a gap_ludicrously_wide format data by spreading over countries, year and the 3 metrics? Hint this new dataframe should only have 5 rows.
