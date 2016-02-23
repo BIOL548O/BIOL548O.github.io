@@ -155,4 +155,12 @@ gm_fac <- gapminder %>%
 
 > *challenge!* write a function to test if population is an integer. (Note that it is probably not stored as an integer in your present data.frame)
 
+final exercise
+--------------
 
+*Announcement: some new 2016 data has been recorded for gapminder!*
+Let's check this data before we combine it with the official dataset:
+
+**Step 1**: write down some assertions which pass for all of gapminder
+
+**Step 2**: download [this file](SuppMatt/gapminder_2016.csv) and see if you can find all the errors!
