@@ -7,17 +7,15 @@ comments: true
 
 The goal of this Peer Review is to help our colleagues to write *clear, readable code* which creates *tidy data*.
 
-Here is a template for Peer Review 2. **Copy and paste this in response to the GitHub Issue that announces your review**
-
 > _tip: suggest new code to your reviewee by typing three backticks before and after your suggestion_
-
-
 
 > _tip: you can [link to specific lines of code](http://stackoverflow.com/questions/23821235/how-to-link-to-specific-line-number-on-github) on GitHub by clicking on them and using the new URL_
 
 
-**Please don't keep a copy of your reviewee's data!**
+*Please don't keep a copy of your reviewee's data!*
 
+
+Here is a template for Peer Review 2. **Copy and paste this in response to the GitHub Issue that announces your review**
 
 ```
 ## organization
@@ -30,10 +28,9 @@ YOUR WORDS HERE
 
 Open the data cleaning script and run it all, either by sourcing or by highlighting and click Run all
 
-What happened? Did the final data file recreate itself? Why or why not? What changes need to be made to the data cleaning code to allow it to run on your machine?
+What happened? Did the final data file recreate itself? Why or why not? What changes need to be made to the script to allow it to run on your machine?
 
 YOUR WORDS HERE
-  
 
 ## documented
 
@@ -57,5 +54,8 @@ YOUR WORDS HERE
 ## output is correct
 
 check either on Github or via a real CSV validator such as [csvlint.io](http://csvlint.io/) and/or [CSVfingerprint](http://setosa.io/csv-fingerprint/)
+
+YOUR WORDS HERE
+
 ```
 
