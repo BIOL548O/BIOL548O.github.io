@@ -1,18 +1,14 @@
 ---
 layout: page
-title: Writing metadata
+title: Metadata
 subtitle: Has anyone seen my keys?
 comments: true
 ---
 
-metadata
---------
+## Outline for today
 
-let's learn about how to write it!
+* Some very quick [slides about metadata]()
+* Group discussion activity
+* an [Introduction to writing metadata](writing_metadata)
+* Description of [Homework 3: the Final Project](Homework_3)
 
-``` r
-library(gapminder)
-```
-
-roll your own -- metadata in a csv
-----------------------------------
