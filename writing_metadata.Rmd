@@ -34,7 +34,7 @@ gapminder %>%
 ```{r}
 library(rio)
 
-attributes(gapminder)
+attributes(gapminder)[1:2]
 
 export(gapminder, "gapminder.csvy", format = "csvy", comment_header = FALSE)
 
@@ -70,4 +70,4 @@ head(import("gapminder.csvy"))
 
 You can also do this simply by writing CSV or simple text with your own hands:
 
-![](SuppMatt/bromelaid_metadata.png)
+![brom](img/bromeliad_metadata.png)
