@@ -219,9 +219,7 @@ Note that there are no quotes when we use YAML.
 
 ## datapackage
 
-dmpr
-
-datapackage
+Using the R package [`dmpr`](https://github.com/christophergandrud/dpmr). It creates data packages after the standard described in [datapackage](http://data.okfn.org/doc/tabular-data-package)
 
 ```r
 #install.package("dpmr")
