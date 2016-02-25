@@ -1,0 +1,19 @@
+---
+output: 
+  github_document:
+    includes:
+      in_header: testhead.yml
+---
+
+
+## metadata
+
+let's learn about how to write it!
+
+
+```{r}
+library(gapminder)
+```
+
+
+## roll your own -- metadata in a csv
