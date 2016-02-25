@@ -35,6 +35,7 @@ navbar-links:
   HW2: "Homework_2"
   PR2: "PeerReview_2"
   Assertions: "Assertions"
+  Metadata: "metadata"
   
 # --- Footer options --- #
 
