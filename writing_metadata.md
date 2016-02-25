@@ -1,3 +1,10 @@
+---
+layout: page
+title: Metadata
+subtitle: Has anyone seen my keys?
+comments: true
+---
+
 
 Metadata is *data about data*
 
@@ -236,3 +243,10 @@ We're going to work with **field descriptors**
   "format": "A string specifying a format",
   "description": "A description for the field"
 ```
+
+hand-made artisanal metadata
+----------------------------
+
+You can also do this simply by writing CSV or simple text with your own hands:
+
+![](SuppMatt/bromelaid_metadata.png)
