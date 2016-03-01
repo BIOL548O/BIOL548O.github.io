@@ -8,7 +8,7 @@ comments: true
 ## Outline for today
 
 * A review of different metadata techniques, using examples from class.
-* some [Review Slides](review_slides.html)
+* some [Review Slides](slides/review_slides.html)
 * Introduction to a three online data repositories
 * live demonstration of online repository use!
 * getting started on peer reviews/ homework
