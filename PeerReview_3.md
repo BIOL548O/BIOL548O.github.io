@@ -5,22 +5,27 @@ subtitle: Code and Data review
 comments: true
 ---
 
-The goal of this Peer Review is to help our colleagues to write *clear, readable code* which creates *tidy data*.
+The goal of this Peer Review is twofold: 
 
-Preview of the Peer review of final project:
+* To help our colleagues perform "quality control" on their *tidy data*, and to document that data with clear metadata.
+* To practice applying your own data skills to unfamiliar data.
 
-Two parts of the peer review: First, assess the completeness of the assertions and the metadata
+A template for your Review is below. **Copy and paste this in response to the GitHub Issue that announces your review**
 
-* what things are tested for in the assertions
-* is anything missing? 
-* Is the metadata thorough? do you have any questions about what the data mean?
+### reusing your reviewee's data!
 
-Second, reuse your colleague's data! The goal here is threefold:
+* To demonstrate that their metadata is complete by interpreting their data without asking them questions 
+* To practice your dplyr and tidyr skills on a new and unfamiliar dataset
+* FUN! 
 
-1. To demonstrate that their metadata is complete by interpreting their data without asking them questions 
-2. To practice your dplyr and tidyr skills on a new and unfamiliar dataset
-3. FUN! 
+Here are some ideas of what you can do:
 
+* Write a few new assertions
+* Do some statistics (anova, linear regression -- very simple is fine)
+* Visualize their data
+* use `dplyr` to calculate some new summary statistics
+
+> Tip: format your R code so that it looks good on the issue! put a row of three backticks (```) right before your code and right after it. This is called a fenced code block [see this link for more info](https://help.github.com/articles/creating-and-highlighting-code-blocks/#fenced-code-blocks). 
 ```
  ```
  ## COMMENT DESCRIBING YOUR NEW USE OF THE DATA
@@ -28,57 +33,57 @@ Second, reuse your colleague's data! The goal here is threefold:
  ```
 ```
 
-
-
-> _tip: suggest new code to your reviewee by typing three backticks before and after your suggestion_
-
-> _tip: you can [link to specific lines of code](http://stackoverflow.com/questions/23821235/how-to-link-to-specific-line-number-on-github) on GitHub by clicking on them and using the new URL_
+> Tip: you can [link to specific lines of code](http://stackoverflow.com/questions/23821235/how-to-link-to-specific-line-number-on-github) on GitHub by clicking on them and using the new URL
 
 
 *Please don't keep a copy of your reviewee's data!*
 
-
-Here is a template for Peer Review 2. **Copy and paste this in response to the GitHub Issue that announces your review**
+## Template:
 
 ```
 ## organization
 
-Did your reviewee follow the directory naming convention that we are using? Was it easy to find the data cleaning script?
+*Did your reviewee follow the directory naming convention that we are using? Was it easy to find the different R scripts?*
 
 YOUR WORDS HERE
 
-## reproducible
+## documentation
 
-Open the data cleaning script and run it all, either by sourcing or by highlighting and click Run all
-
-What happened? Did the final data file recreate itself? Why or why not? What changes need to be made to the script to allow it to run on your machine?
+*Review the code that performs the assertions. Are the comments in the code readable? Are there any lines of code that appear without any description of what they are doing?*
 
 YOUR WORDS HERE
 
-## documented
+## Assertions
 
-Are the comments in the code readable? Are there any lines of code that appear without any description of what they are doing?
-
-YOUR WORDS HERE
-
-## efficient
-
-What transformations or manipulations is your reviewee performing? Are any done with more code than is necessary? For example, are they using their own code to solve a problem that is already handled in `dplyr` or `tidyr`? **suggest something they could do differently**
+*what things does your reviewee test for in the assertions? Is anything missing? Suggest an improvement to their quality control*
 
 YOUR WORDS HERE
 
+## Metadata (two parts)
 
-## output is tidy
+### clear and human-readable
 
-Tidy data has one observation in each row, and one variable in each column. Does that appear to be true of your reviewee's dataset? Is there another form you could suggest?
+*Is the metadata thorough? When, where and how was this work done? Do you have any questions about what the data mean?* 
+
+YOUR WORDS HERE
+
+### correct and machine-readable
+
+*Choose one from below (depending on what your reviewee has done) and describe how to fix any problems you find:*
+
+* `EML` -- use the function `eml_read()` from the `EML` package. Will it read into R?
+* `csvy` -- copy and paste the YAML information into [this validator](http://codebeautify.org/yaml-validator) and click "Validate".
+* `datapackage` -- copy and paste the `datapackage.json` file into [this validator](http://jsonlint.com/) and click "Validate"
 
 YOUR WORDS HERE
 
-## output is correct
+# Reuse your colleagues data
 
-check either on Github or via a real CSV validator such as [csvlint.io](http://csvlint.io/) and/or [CSVfingerprint](http://setosa.io/csv-fingerprint/)
+*Do something with your reviewee's data! Write an R script that reads the data in, then does something. Don't forget to write comments!*  
+*Paste the entire R script you wrote below, inside a fenced code block*  
+*If you've made a plot, you can add that in a separate comment*
 
-YOUR WORDS HERE
+YOUR CODE HERE
 
 ```
 
