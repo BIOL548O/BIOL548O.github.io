@@ -64,10 +64,10 @@ quick sanity checks.
 to find, accessible, and stored where it will be preserved
 for a long time
 
-[Figshare]()
-[Knowledge Network for Biocomplexity]()
-[Dryad]()
-[Zenodo]()
+* [Figshare](https://figshare.com/)
+* [Knowledge Network for Biocomplexity](https://knb.ecoinformatics.org/#)
+* [Dryad](http://datadryad.org/)
+* [Zenodo](https://zenodo.org/)
 
 
 ## 9. Use an established and open license
