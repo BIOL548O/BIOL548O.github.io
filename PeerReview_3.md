@@ -26,12 +26,7 @@ Here are some ideas of what you can do:
 * use `dplyr` to calculate some new summary statistics
 
 > Tip: format your R code so that it looks good on the issue! put a row of three backticks right before your code and right after it. This is called a fenced code block [see this link for more info](https://help.github.com/articles/creating-and-highlighting-code-blocks/#fenced-code-blocks). 
-```
- ```
- ## COMMENT DESCRIBING YOUR NEW USE OF THE DATA
- YOUR CODE HERE
- ```
-```
+
 
 > Tip: you can [link to specific lines of code](http://stackoverflow.com/questions/23821235/how-to-link-to-specific-line-number-on-github) on GitHub by clicking on them and using the new URL
 
