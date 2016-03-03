@@ -1,7 +1,7 @@
 ---
 layout: page
 title: filling up the corners
-subtitle: Code and Data review
+subtitle: a last few details
 comments: true
 ---
 
