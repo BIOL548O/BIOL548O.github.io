@@ -1,0 +1,37 @@
+---
+title: "Complete"
+author: "Andrew MacDonald"
+date: "February 11, 2016"
+output: github_document
+---
+
+```{r}
+library(knitr)
+library(tidyr)
+
+```
+
+
+```{R}
+kelpdf <- data.frame(
+  Year = c(1999, 2000, 2004, 1999, 2004),
+  Taxon = c("Saccharina", "Saccharina", "Saccharina", "Agarum", "Agarum"),
+  Abundance = c(4,5,2,1,8)
+  
+)
+
+kable(kelpdf)
+
+kelpdf %>% 
+  complete(Year, Taxon) %>% 
+  kable
+
+
+kelpdf %>% 
+  complete(Year, Taxon, fill = list(Abundance = 0)) %>% 
+  kable()
+
+kelpdf %>% 
+  expand(Year, Taxon)
+
+```
