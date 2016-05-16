@@ -47,7 +47,7 @@ Based on this, how do you think it works?
 
 * [Tidy data](http://vita.had.co.nz/papers/tidy-data.pdf)
 * [`dplyr` vignette](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html) 
-* [ten commandments of entering data for R](http://www.seascapemodels.org/rstats/rspatial/2015/11/13/data-commandments.html)
+* [ten commandments of entering data for R](http://www.seascapemodels.org/rstats%20rspatial/2015/11/13/data-commandments.html)
 
 You can also see these from Rstudio if you type `browseVignettes(package = "dplyr")`
 
